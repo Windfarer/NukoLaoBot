@@ -9,4 +9,4 @@ ADD requirements.txt /app/requirements.txt
 RUN pip install -r requirements.txt -i https://pypi.douban.com/simple/
 COPY . /app
 
-CMD ['python', 'bot.py']
+CMD ["python", "bot.py"]
